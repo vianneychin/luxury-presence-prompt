@@ -14,12 +14,19 @@ const Wrapper = styled.div`
     min-height: 77.86px;
     width: 100%;
     .Top-Left {
-      width: 50%;
-      background-color: red;
+      width: 15%;
+      background-color: var(--NAV_BLUE);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input {
+        height: 50%;
+        width: 70%;
+      }
     }
     .Top-Right {
-      width: 50%;
-      background-color: white;
+      width: 85%;
+      background-color: var(--MAIN_BLUE);
     }
   }
 
@@ -29,12 +36,12 @@ const Wrapper = styled.div`
     height: 91.5%;
     width: 100%;
     .Bottom-Left {
-      width: 50%;
-      background-color: blue;
+      width: 15%;
+      background-color: var(--NAV_DARK_BLUE);
     }
     .Bottom-Right {
-      width: 50%;
-      background-color: yellow;
+      width: 85%;
+      background-color: var(--WHITE);
     }
   }
 `
