@@ -73,18 +73,21 @@ const Container = () => {
               <Link to='/calendar' activeClassName='active'>
                 <li>Calendar</li>
               </Link>
+              <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div>
               <Documentation props='#95A7C3' />
               <Link activeClassName='active'>
                 <li>Documentation</li>
               </Link>
+              <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div>
               <Dashboard props='#95A7C3' />
               <Link activeClassName='active' to='/'>
                 <li>Dashboard</li>
               </Link>
+              <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
           </ul>
           <ul>
