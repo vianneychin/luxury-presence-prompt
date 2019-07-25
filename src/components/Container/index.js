@@ -1,29 +1,17 @@
 import React from 'react'
 import { Wrapper } from './styled'
+import Top from './Top'
 
 const Container = () => {
   return (
     <Wrapper>
-      {/* Top */}
       <div className="Top">
-
-        {/* Top-Left */}
-        <div></div>
-
-        {/* Top-Right */}
-        <div></div>
-
-
-
+        <div className="Top-Left"></div>
+        <div className="Top-Right"></div>
       </div>
-      {/* Bottom */}
       <div className="Bottom">
-
-        {/* Bottom-Right */}
-        <div></div>
-
-        {/* Bottom-Left */}
-        <div></div>
+        <div className="Bottom-Right"></div>
+        <div className="Bottom-Left"></div>
       </div>
     </Wrapper>
   )

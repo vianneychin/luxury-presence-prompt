@@ -13,11 +13,11 @@ const Wrapper = styled.div`
     max-height: 77.86px;
     min-height: 77.86px;
     width: 100%;
-    > div:nth-of-type(1) {
+    .Top-Left {
       width: 50%;
       background-color: red;
     }
-    > div:nth-of-type(2) {
+    .Top-Right {
       width: 50%;
       background-color: white;
     }
@@ -28,11 +28,11 @@ const Wrapper = styled.div`
     display: flex;
     height: 91.5%;
     width: 100%;
-    > div:nth-last-of-type(1) {
+    .Bottom-Left {
       width: 50%;
       background-color: blue;
     }
-    > div:nth-last-of-type(2) {
+    .Bottom-Right {
       width: 50%;
       background-color: yellow;
     }
