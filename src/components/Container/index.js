@@ -178,7 +178,7 @@ const Container = () => {
         </div>
         <div className='Bottom-Right'>
           <div className='Header'>
-            <div>
+            <div data-aos='fade-left'>
               <h1>Dashboard</h1>
               <h2>dashboard & statistics</h2>
             </div>
@@ -192,7 +192,12 @@ const Container = () => {
               </button>
             </div>
           </div>
-          <div className='Main' />
+          <div className='Main'>
+            <div>
+              <h1>Totals</h1>
+              <h2>Last Week</h2>
+            </div>
+          </div>
           <div className='Footer' />
         </div>
       </div>

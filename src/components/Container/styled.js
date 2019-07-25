@@ -5,6 +5,7 @@ const Wrapper = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: column;
+  background-color: var(--OFF_WHITE);
 
   .Top {
     display: flex;
@@ -164,7 +165,6 @@ const Wrapper = styled.div`
     }
     .Bottom-Right {
       width: 85%;
-      background-color: papayawhip;
       display: flex;
       flex-direction: column;
       padding-top: 2.5%;
@@ -177,13 +177,13 @@ const Wrapper = styled.div`
         > div:nth-of-type(1) {
           display: flex;
           flex-direction: column;
-          background-color: white;
           h1 {
             font-weight: 200;
             font-size: 3rem;
           }
           h2 {
             color: var(--TEXT_GREY);
+            font-weight: 400;
           }
         }
         > div:nth-of-type(2) {
@@ -203,14 +203,14 @@ const Wrapper = styled.div`
             display: flex;
             text-align-last: center;
             position: relative;
-            left: 6px;
+            left: 20px;
             border-radius: 0;
             height: 90%;
           }
           > img {
             height: 14px;
             position: relative;
-            right: 30px;
+            right: 15px;
             top: 24px;
           }
           button {
@@ -231,6 +231,11 @@ const Wrapper = styled.div`
         background-color: lime;
         display: flex;
         flex-grow: 1;
+        box-shadow: 0 5px 10px rgba(154, 160, 185, 0.5),
+          0 15px 40px rgba(166, 173, 201, 0.2);
+        > div:nth-of-type(1) {
+          color: red;
+        }
       }
       .Footer {
         background-color: cornflowerblue;

@@ -2,11 +2,12 @@
   --NAV_BLUE: rgb(78, 165, 2017);
   --NAV_DARK_BLUE: rgb(44, 51, 61);
   --MAIN_BLUE: rgb(90, 179, 220);
+  --OFF_WHITE: rgb(241, 244, 248);
   --GREEN: rgb(93, 202, 147);
   --BLACK: rgb(0, 0, 0);
   --WHITE: rgb(255, 255, 255);
   --GREY: rgb(180, 177, 185);
-  --TEXT_GREY: rgb(173, 170, 178);
+  --TEXT_GREY: #adaab2;
   --LINE_OFF_WHITE: rgb(242, 242, 242);
   /* SVG ELEMENTS: #95A7C3 */
 }
