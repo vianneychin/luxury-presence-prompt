@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import arrow from '../../assets/arrow.svg'
+import searchIcon from '../../assets/search.svg'
+import profileIcon from '../../assets/profile.svg'
+import downArrow from '../../assets/down-arrow.svg'
 import useAos from '../../hooks/useAos'
 import useNavToggle from '../../hooks/useNavToggle'
 import { Wrapper } from './styled'
@@ -48,11 +51,9 @@ const Container = () => {
           <ul>
             <div>
               <Calendar props='#95A7C3' />
-              <li>
-                <Link to='/calendar' activeClassName='active'>
-                  Calendar
-                </Link>
-              </li>
+              <Link to='/calendar' activeClassName='active'>
+                <li>Calendar</li>
+              </Link>
             </div>
             <div>
               <Documentation props='#95A7C3' />
