@@ -14,6 +14,8 @@ const Wrapper = styled.div`
     min-height: 77.86px;
     width: 100%;
     .Top-Left {
+      position: fixed;
+      height: 78.1px;
       width: 15%;
       background-color: var(--NAV_BLUE);
       display: flex;
@@ -28,7 +30,7 @@ const Wrapper = styled.div`
       }
       .Hamburger {
         height: 32%;
-        width: 15%;
+        width: 37.8px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -37,6 +39,11 @@ const Wrapper = styled.div`
           background-color: white;
           height: 3px;
           width: 50%;
+        }
+      }
+      @media(max-width: 1200px) {
+        input {
+          display: none;
         }
       }
     }
@@ -57,7 +64,8 @@ const Wrapper = styled.div`
     }
     .Bottom-Right {
       width: 85%;
-      background-color: var(--WHITE);
+      /* background-color: var(--WHITE); */
+      background-color: dark-grey;
     }
   }
 `
