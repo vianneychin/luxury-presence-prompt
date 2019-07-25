@@ -302,6 +302,7 @@ const Wrapper = styled.div`
         }
         > hr {
           margin-top: 3.5%;
+          margin-bottom: 3.5%;
           display: block;
         }
         > div:nth-of-type(3) {
@@ -355,7 +356,6 @@ const Wrapper = styled.div`
             }
           }
           .Revenue {
-            background-color: blue;
             padding-left: 2%;
             padding-right: 2%;
             display: flex;
