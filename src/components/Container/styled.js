@@ -104,6 +104,7 @@ const Wrapper = styled.div`
     display: flex;
     height: 100%;
     width: 100%;
+    justify-content: center;
     .Bottom-Left {
       width: 15%;
       background-color: var(--NAV_DARK_BLUE);
