@@ -232,8 +232,27 @@ const Container = () => {
             <hr />
 
             <div>
-              <div />
-              <div />
+              <div className='Site-Visits'>
+                <div>
+                  <h1>Site Visits</h1>
+                  <h2>Weekly Stats</h2>
+                </div>
+                <div>
+                  <button>NEW</button>
+                  <button>RETURNING</button>
+                </div>
+              </div>
+              <div className='Revenue'>
+                <div>
+                  <h1>Site Visits</h1>
+                  <h2>Weekly Stats</h2>
+                </div>
+                <div>
+                  <select>
+                    <option>FILTER RANGE</option>
+                  </select>
+                </div>
+              </div>
             </div>
             <div />
           </div>

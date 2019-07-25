@@ -304,16 +304,56 @@ const Wrapper = styled.div`
           display: block;
         }
         > div:nth-of-type(3) {
-          background-color: pink;
           height: 50px;
           display: flex;
           > div {
             width: 50%;
           }
-          > div:nth-of-type(1) {
-            background-color: red;
+          .Site-Visits {
+            padding-left: 2%;
+            padding-right: 2%;
+            display: flex;
+            justify-content: space-between;
+            > div:nth-of-type(1) {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: 230px;
+              h1 {
+                font-size: 30px;
+                font-weight: 400;
+              }
+              h2 {
+                padding-top: 10px;
+                font-weight: 400;
+                color: var(--TEXT_GREY);
+              }
+            }
+            > div:nth-of-type(2) {
+              display: flex;
+              align-items: center;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              width: 155px;
+              justify-content: space-between;
+              > button {
+                height: 100%;
+                border-radius: 4px;
+              }
+              > button:nth-of-type(1) {
+                width: 50px;
+                background-color: var(--GREEN);
+                border-color: var(--GREEN);
+                color: var(--WHITE);
+              }
+              > button:nth-of-type(2) {
+                width: 100px;
+                color: var(--TEXT_GREY);
+                border: 1.5px solid rgb(200, 200, 200);
+              }
+            }
           }
-          > div:nth-of-type(2) {
+          .Revenue {
             background-color: blue;
           }
         }
