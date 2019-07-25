@@ -250,8 +250,8 @@ const Container = () => {
                 <div>
                   <select>
                     <option>FILTER RANGE</option>
-                    <img src={downArrow} />
                   </select>
+                  <img src={downArrow} />
                 </div>
               </div>
             </div>

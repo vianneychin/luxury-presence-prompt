@@ -388,12 +388,19 @@ const Wrapper = styled.div`
               padding-bottom: 10px;
               > select {
                 height: 100%;
-                padding-left: 45px;
+                padding-left: 30px;
                 padding-right: 45px;
                 background-color: var(--MAIN_BLUE);
                 color: var(--WHITE);
                 border: none;
                 border-radius: 1.5px;
+                letter-spacing: 1.5px;
+                font-weight: 300;
+              }
+              > img {
+                height: 14px;
+                position: relative;
+                right: 30px;
               }
             }
           }
