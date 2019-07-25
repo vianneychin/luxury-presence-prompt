@@ -412,6 +412,17 @@ const Wrapper = styled.div`
       .Graph-Container {
         height: 100%;
         background-color: black;
+        display: flex;
+        .Graph-One {
+          height: 100%;
+          width: 50%;
+          background-color: red;
+        }
+        .Graph-Two {
+          height: 100%;
+          width: 50%;
+          background-color: blue;
+        }
       }
       .Footer {
         background-color: cornflowerblue;
