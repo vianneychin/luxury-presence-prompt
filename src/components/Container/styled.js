@@ -22,6 +22,22 @@ const Wrapper = styled.div`
       input {
         height: 50%;
         width: 70%;
+        background-color: rgb(146, 146, 146);
+        border: none;
+        border-radius: 1px;
+      }
+      .Hamburger {
+        height: 32%;
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        > div {
+          background-color: white;
+          height: 3px;
+          width: 50%;
+        }
       }
     }
     .Top-Right {
