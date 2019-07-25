@@ -6,7 +6,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
 
-
   .Top {
     display: flex;
     height: 8.5%;
@@ -44,7 +43,7 @@ const Wrapper = styled.div`
           width: 18.89px;
         }
       }
-      @media(max-width: 1200px) {
+      @media (max-width: 1200px) {
         input {
           display: none;
         }
@@ -55,7 +54,6 @@ const Wrapper = styled.div`
       background-color: var(--MAIN_BLUE);
     }
   }
-
 
   .Bottom {
     display: flex;
@@ -95,4 +93,4 @@ const Wrapper = styled.div`
   }
 `
 
-export { Wrapper }
+export {Wrapper}
