@@ -83,8 +83,6 @@ const Wrapper = styled.div`
             left: 26.5px;
           }
           > select {
-            -moz-appearance: none;
-            -webkit-appearance: none;
             width: 40px;
             position: relative;
             left: 15px;
@@ -169,10 +167,45 @@ const Wrapper = styled.div`
       background-color: papayawhip;
       display: flex;
       flex-direction: column;
+      padding-top: 2.5%;
+      padding-right: 2.5%;
+      padding-left: 2.5%;
       .Header {
-        /* background-color: tomato; */
         display: flex;
-        flex-grow: 1;
+        justify-content: space-between;
+        > div:nth-of-type(1) {
+          display: flex;
+          flex-direction: column;
+          background-color: white;
+          h1 {
+            font-weight: 200;
+            font-size: 3rem;
+          }
+          h2 {
+            color: var(--TEXT_GREY);
+          }
+        }
+        > div:nth-of-type(2) {
+          display: flex;
+          select {
+            padding-right: 15px;
+            border-radius: 3px;
+            background-color: white;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: rgb(89, 179, 220);
+            color: rgb(255, 255, 255);
+            font-size: 13px;
+            font-weight: 300;
+            align-items: center;
+            width: 280px;
+            border: 1px solid rgb(89, 179, 220);
+            display: flex;
+            text-align-last: center;
+            position: relative;
+            left: 6px;
+          }
+        }
       }
       .Main {
         background-color: lime;

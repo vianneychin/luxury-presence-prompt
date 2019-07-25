@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import arrow from '../../assets/arrow.svg'
 import searchIcon from '../../assets/search.svg'
 import profileIcon from '../../assets/profile.png'
+import settingsIcon from '../../assets/settings.svg'
 import downArrow from '../../assets/down-arrow.svg'
 import useAos from '../../hooks/useAos'
 import useNavToggle from '../../hooks/useNavToggle'
@@ -176,7 +177,20 @@ const Container = () => {
           </ul>
         </div>
         <div className='Bottom-Right'>
-          <div className='Header' />
+          <div className='Header'>
+            <div>
+              <h1>Dashboard</h1>
+              <h2>dashboard & statistics</h2>
+            </div>
+            <div>
+              <select>
+                <option>17 January 2016 - 15 February 2016</option>
+              </select>
+              <button>
+                <img src={settingsIcon} />
+              </button>
+            </div>
+          </div>
           <div className='Main' />
           <div className='Footer' />
         </div>

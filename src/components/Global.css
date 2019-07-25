@@ -37,3 +37,8 @@ a:visited {
 ul {
   list-style: none;
 }
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
