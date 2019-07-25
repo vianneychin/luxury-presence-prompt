@@ -88,7 +88,7 @@ const Wrapper = styled.div`
             width: 40px;
             position: relative;
             left: 26px;
-            background-color: black;
+            background-color: var(--NAV_DARK_BLUE);
           }
           > img:nth-of-type(2) {
             height: 14px;
@@ -125,8 +125,11 @@ const Wrapper = styled.div`
           justify-content: center;
           align-items: center;
           > svg {
-            margin-right: 10%;
-            margin-left: 10%;
+            margin-right: 8%;
+            margin-left: 12.5%;
+            @media (max-width: 1200px) {
+              margin: 0;
+            }
           }
           > a {
             width: 100%;
