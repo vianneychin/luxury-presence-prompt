@@ -303,6 +303,20 @@ const Wrapper = styled.div`
           margin-top: 3.5%;
           display: block;
         }
+        > div:nth-of-type(3) {
+          background-color: pink;
+          height: 50px;
+          display: flex;
+          > div {
+            width: 50%;
+          }
+          > div:nth-of-type(1) {
+            background-color: red;
+          }
+          > div:nth-of-type(2) {
+            background-color: blue;
+          }
+        }
       }
       .Footer {
         background-color: cornflowerblue;

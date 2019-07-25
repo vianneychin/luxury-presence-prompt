@@ -229,10 +229,12 @@ const Container = () => {
                 </div>
               </div>
             </div>
-
             <hr />
 
-            {/* third */}
+            <div>
+              <div />
+              <div />
+            </div>
             <div />
           </div>
           <div className='Footer' />
