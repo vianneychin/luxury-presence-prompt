@@ -127,6 +127,8 @@ const Wrapper = styled.div`
           > svg {
             margin-right: 8%;
             margin-left: 12.5%;
+            height: 46px;
+            width: 34px;
             @media (max-width: 1200px) {
               margin: 0;
             }
