@@ -7,6 +7,7 @@ import settingsIcon from '../../assets/settings.svg'
 import downArrow from '../../assets/down-arrow.svg'
 import useAos from '../../hooks/useAos'
 import useNavToggle from '../../hooks/useNavToggle'
+import useAPI from '../../hooks/useAPI'
 import { Wrapper } from './styled'
 import {
   Calendar,
@@ -28,7 +29,10 @@ import {
 
 const Container = () => {
   useAos()
+  const resources = useAPI()
   const { toggleNavBar, display } = useNavToggle()
+  const { BrandPopularity, newFeedbacks, newOrders, totalProfit } =
+    resources && resources.Totals
   return (
     <Wrapper>
       <div className='Top'>
