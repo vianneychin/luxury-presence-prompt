@@ -418,7 +418,7 @@ const Wrapper = styled.div`
           width: 50%;
           img {
             height: auto;
-            width: 680px;
+            width: 90%;
             position: relative;
             left: 32px;
           }
@@ -426,20 +426,19 @@ const Wrapper = styled.div`
         .Graph-Two {
           height: 100%;
           width: 50%;
-          background-color: blue;
+          /* background-color: blue; */
           display: flex;
           flex-direction: column;
+          align-items: center;
           > img {
             height: auto;
-            width: 680px;
-            position: relative;
-            left: 32px;
+            width: 90%;
           }
           > div {
-            background-color: pink;
-            width: 100%;
+            width: 80%;
             display: flex;
             justify-content: space-between;
+            padding-bottom: 50px;
             > div {
               label {
                 font-weight: 400;
@@ -454,7 +453,7 @@ const Wrapper = styled.div`
         }
       }
       .Footer {
-        background-color: cornflowerblue;
+        /* background-color: cornflowerblue; */
         display: flex;
         height: 70px;
       }

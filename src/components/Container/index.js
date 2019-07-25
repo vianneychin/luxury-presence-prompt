@@ -262,7 +262,7 @@ const Container = () => {
                 <img src={graphOne} />
               </div>
               <div className='Graph-Two'>
-                {/* <img src={graphTwo} /> */}
+                <img src={graphTwo} />
                 <div>
                   <div>
                     <label>Revenue:</label>
