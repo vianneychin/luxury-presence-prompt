@@ -54,7 +54,7 @@ const Wrapper = styled.div`
       background-color: var(--MAIN_BLUE);
       display: flex;
       align-items: center;
-      > div {
+      > div:nth-of-type(1) {
         width: 200px;
         display: flex;
         justify-content: space-around;
@@ -68,6 +68,16 @@ const Wrapper = styled.div`
           border: none;
           ::placeholder {
             color: #fff;
+          }
+        }
+      }
+      > div:nth-of-type(2) {
+        width: 100%;
+        > div {
+          display: flex;
+          justify-content: flex-end;
+          > img {
+            height: 77.86px;
           }
         }
       }

@@ -45,6 +45,14 @@ const Container = () => {
             <img src={searchIcon} />
             <input placeholder='Search...' />
           </div>
+          <div>
+            <div>
+              <img src={profileIcon} />
+              <select>
+                <option />
+              </select>
+            </div>
+          </div>
         </div>
       </div>
       <div className='Bottom'>
