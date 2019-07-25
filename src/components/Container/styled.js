@@ -93,7 +93,7 @@ const Wrapper = styled.div`
             height: 14px;
             align-self: center;
             position: relative;
-            right: 10px;
+            right: 11px;
           }
         }
       }
@@ -259,6 +259,21 @@ const Wrapper = styled.div`
           display: block;
         }
         > div:nth-of-type(2) {
+          @media (max-width: 1200px) {
+            flex-direction: column;
+            > div:nth-of-type(2) {
+              padding-top: 20px;
+            }
+            > div {
+              justify-content: space-evenly;
+              > div {
+                width: 200px;
+              }
+            }
+            hr:nth-of-type(2) {
+              display: none;
+            }
+          }
           display: flex;
           justify-content: space-around;
           padding-right: 5%;
