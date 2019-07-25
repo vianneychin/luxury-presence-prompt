@@ -399,6 +399,7 @@ const Wrapper = styled.div`
                 border-radius: 1.5px;
                 letter-spacing: 1.5px;
                 font-weight: 300;
+                height: 35px;
               }
               > img {
                 height: 14px;
@@ -411,17 +412,45 @@ const Wrapper = styled.div`
       }
       .Graph-Container {
         height: 100%;
-        background-color: black;
         display: flex;
         .Graph-One {
           height: 100%;
           width: 50%;
-          background-color: red;
+          img {
+            height: auto;
+            width: 680px;
+            position: relative;
+            left: 32px;
+          }
         }
         .Graph-Two {
           height: 100%;
           width: 50%;
           background-color: blue;
+          display: flex;
+          flex-direction: column;
+          > img {
+            height: auto;
+            width: 680px;
+            position: relative;
+            left: 32px;
+          }
+          > div {
+            background-color: pink;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            > div {
+              label {
+                font-weight: 400;
+                color: var(--TEXT_GREY);
+              }
+              h1 {
+                font-size: 25px;
+                font-weight: 400;
+              }
+            }
+          }
         }
       }
       .Footer {

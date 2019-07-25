@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import profileIcon from '../../assets/profile.png'
+import graphOne from '../../assets/GraphOne.png'
+import graphTwo from '../../assets/GraphTwo.png'
 import arrow from '../../assets/arrow.svg'
 import searchIcon from '../../assets/search.svg'
-import profileIcon from '../../assets/profile.png'
 import settingsIcon from '../../assets/settings.svg'
 import downArrow from '../../assets/down-arrow.svg'
 import useAos from '../../hooks/useAos'
@@ -256,9 +258,32 @@ const Container = () => {
               </div>
             </div>
             <div className='Graph-Container'>
-              <div className='Graph-One' />
-              <div className='Graph-Two' />
+              <div className='Graph-One'>
+                <img src={graphOne} />
+              </div>
+              <div className='Graph-Two'>
+                {/* <img src={graphTwo} /> */}
+                <div>
+                  <div>
+                    <label>Revenue:</label>
+                    <h1>$13.274</h1>
+                  </div>
+                  <div>
+                    <label>Tax:</label>
+                    <h1>$19.962</h1>
+                  </div>
+                  <div>
+                    <label>Shipment:</label>
+                    <h1>$1.967</h1>
+                  </div>
+                  <div>
+                    <label>Orders:</label>
+                    <h1>529 479</h1>
+                  </div>
+                </div>
+              </div>
             </div>
+            <hr style={{ margin: 0 }} />
           </div>
           <div className='Footer' />
         </div>
