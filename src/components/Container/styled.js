@@ -14,7 +14,6 @@ const Wrapper = styled.div`
     min-height: 77.86px;
     width: 100%;
     .Top-Left {
-      position: fixed;
       height: 78.1px;
       width: 15%;
       background-color: var(--NAV_BLUE);
@@ -27,6 +26,7 @@ const Wrapper = styled.div`
         background-color: rgb(146, 146, 146);
         border: none;
         border-radius: 1px;
+        margin-right: 4%;
       }
       .Hamburger {
         height: 32%;
@@ -35,10 +35,13 @@ const Wrapper = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        :hover {
+          cursor: pointer;
+        }
         > div {
           background-color: white;
           height: 3px;
-          width: 50%;
+          width: 18.89px;
         }
       }
       @media(max-width: 1200px) {
@@ -61,6 +64,28 @@ const Wrapper = styled.div`
     .Bottom-Left {
       width: 15%;
       background-color: var(--NAV_DARK_BLUE);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      color: var(--TEXT_GREY);
+      font-size: 13.5px;
+      > ul {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        > div {
+          /* background-color: white; */
+          height: 25%;
+          display: flex;
+          justify-content: center;
+          > li {
+            width: 128px;
+            /* background-color: red; */
+          }
+        }
+      }
     }
     .Bottom-Right {
       width: 85%;

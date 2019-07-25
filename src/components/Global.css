@@ -33,3 +33,7 @@ a {
 a, a:visited {
   color: var(--BLACK);
 }
+
+ul {
+  list-style: none;
+}
