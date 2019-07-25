@@ -231,10 +231,26 @@ const Wrapper = styled.div`
         background-color: lime;
         display: flex;
         flex-grow: 1;
+        border-radius: 10px;
         box-shadow: 0 5px 10px rgba(154, 160, 185, 0.5),
           0 15px 40px rgba(166, 173, 201, 0.2);
         > div:nth-of-type(1) {
-          color: red;
+          padding-left: 2%;
+          background-color: white;
+          display: flex;
+          align-items: center;
+          height: 15%;
+          width: 100%;
+          h1 {
+            font-size: 30px;
+            font-weight: 400;
+          }
+          h2 {
+            color: var(--TEXT_GREY);
+            font-weight: 400;
+            padding-left: 1.5%;
+            padding-top: 0.7%;
+          }
         }
       }
       .Footer {
