@@ -51,6 +51,7 @@ const Container = () => {
               <select>
                 <option />
               </select>
+              <img src={downArrow} />
             </div>
           </div>
         </div>

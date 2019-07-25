@@ -64,6 +64,7 @@ const Wrapper = styled.div`
           top: 0px;
         }
         > input {
+          margin-left: 15px;
           background-color: var(--MAIN_BLUE);
           border: none;
           ::placeholder {
@@ -76,8 +77,24 @@ const Wrapper = styled.div`
         > div {
           display: flex;
           justify-content: flex-end;
-          > img {
+          > img:nth-of-type(1) {
             height: 77.86px;
+            position: relative;
+            left: 26.5px;
+          }
+          > select {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            width: 40px;
+            position: relative;
+            left: 26px;
+            background-color: black;
+          }
+          > img:nth-of-type(2) {
+            height: 14px;
+            align-self: center;
+            position: relative;
+            right: 1px;
           }
         }
       }
@@ -114,9 +131,10 @@ const Wrapper = styled.div`
           > a {
             width: 100%;
             color: var(--TEXT_GREY);
+            @media (max-width: 1200px) {
+              display: none;
+            }
             > li {
-              /* width: 128px; */
-              /* background-color: red; */
               width: 100%;
               text-align: left;
             }
