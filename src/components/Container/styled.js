@@ -103,7 +103,7 @@ const Wrapper = styled.div`
 
   .Bottom {
     display: flex;
-    height: 91.5%;
+    height: 100%;
     width: 100%;
     .Bottom-Left {
       width: 15%;
@@ -166,8 +166,19 @@ const Wrapper = styled.div`
     }
     .Bottom-Right {
       width: 85%;
-      /* background-color: var(--WHITE); */
-      background-color: dark-grey;
+      background-color: papayawhip;
+      .Header {
+        background-color: tomato;
+        /* height: 33.3%; */
+      }
+      .Main {
+        background-color: lime;
+        /* height: 33.3%; */
+      }
+      .Footer {
+        background-color: cornflowerblue;
+        /* height: 33.3%; */
+      }
     }
   }
 `

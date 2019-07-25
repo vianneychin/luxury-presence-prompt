@@ -175,7 +175,11 @@ const Container = () => {
             </div>
           </ul>
         </div>
-        <div className='Bottom-Right' />
+        <div className='Bottom-Right'>
+          <div className='Header' />
+          <div className='Main' />
+          <div className='Footer' />
+        </div>
       </div>
     </Wrapper>
   )
