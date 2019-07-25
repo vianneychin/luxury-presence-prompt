@@ -124,8 +124,8 @@ const Wrapper = styled.div`
           justify-content: center;
           align-items: center;
           > svg {
-            margin-right: 12%;
-            margin-left: 12%;
+            margin-right: 10%;
+            margin-left: 10%;
             height: 46px;
             width: 34px;
             @media (max-width: 1200px) {
@@ -149,8 +149,8 @@ const Wrapper = styled.div`
           > img {
             height: 10px;
             width: 10px;
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-left: 5%;
+            margin-right: 5%;
           }
         }
         @media (max-width: 1200px) {
