@@ -1,0 +1,39 @@
+:root {
+  --NAV_BLUE: rgb(78, 165, 2017);
+  --NAV_DARK_BLUE: rgb(44, 51, 61);
+  --MAIN_BLUE: rgb(90, 179, 220);
+  --GREEN: rgb(93, 202, 147);
+  --BLACK: rgb(0, 0, 0);
+  --WHITE: rgb(255, 255, 255);
+  --GREY: rgb(180, 177, 185);
+  --TEXT_GREY: rgb(173, 170, 178);
+  --LINE_OFF_WHITE: rgb(242, 242, 242);
+  /* SVG ELEMENTS: rgb(149, 167, 195) */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: var(--BLACK);
+}
