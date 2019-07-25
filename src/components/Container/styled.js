@@ -87,14 +87,14 @@ const Wrapper = styled.div`
             -webkit-appearance: none;
             width: 40px;
             position: relative;
-            left: 26px;
+            left: 15px;
             background-color: var(--NAV_DARK_BLUE);
           }
           > img:nth-of-type(2) {
             height: 14px;
             align-self: center;
             position: relative;
-            right: 1px;
+            right: 10px;
           }
         }
       }
