@@ -164,7 +164,7 @@ const Wrapper = styled.div`
     }
     .Bottom-Right {
       width: 85%;
-      background-color: papayawhip;
+      /* background-color: papayawhip; */
       display: flex;
       flex-direction: column;
       padding-top: 2.5%;
@@ -173,6 +173,7 @@ const Wrapper = styled.div`
       .Header {
         display: flex;
         justify-content: space-between;
+        padding-bottom: 1.9%;
         > div:nth-of-type(1) {
           display: flex;
           flex-direction: column;
@@ -189,7 +190,6 @@ const Wrapper = styled.div`
           display: flex;
           select {
             padding-right: 15px;
-            border-radius: 3px;
             background-color: white;
             padding-top: 15px;
             padding-bottom: 15px;
@@ -204,6 +204,18 @@ const Wrapper = styled.div`
             text-align-last: center;
             position: relative;
             left: 6px;
+            border-radius: 0;
+          }
+          button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 65.56px;
+            margin-left: 5.4px;
+            background-color: #fff;
+            img {
+              width: 25px;
+            }
           }
         }
       }
