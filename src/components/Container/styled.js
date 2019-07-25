@@ -382,6 +382,19 @@ const Wrapper = styled.div`
               padding-bottom: 10px;
               width: 155px;
               justify-content: space-between;
+              display: flex;
+              justify-content: flex-end;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              > select {
+                height: 100%;
+                padding-left: 45px;
+                padding-right: 45px;
+                background-color: var(--MAIN_BLUE);
+                color: var(--WHITE);
+                border: none;
+                border-radius: 1.5px;
+              }
             }
           }
         }
