@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import arrow from '../../assets/arrow.svg'
 import searchIcon from '../../assets/search.svg'
-import profileIcon from '../../assets/profile.svg'
+import profileIcon from '../../assets/profile.png'
 import downArrow from '../../assets/down-arrow.svg'
 import useAos from '../../hooks/useAos'
 import useNavToggle from '../../hooks/useNavToggle'
@@ -40,7 +40,12 @@ const Container = () => {
           </div>
         </div>
 
-        <div className='Top-Right' />
+        <div className='Top-Right'>
+          <div>
+            <img src={searchIcon} />
+            <input placeholder='Search...' />
+          </div>
+        </div>
       </div>
       <div className='Bottom'>
         <div

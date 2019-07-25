@@ -52,6 +52,25 @@ const Wrapper = styled.div`
     .Top-Right {
       width: 85%;
       background-color: var(--MAIN_BLUE);
+      display: flex;
+      align-items: center;
+      > div {
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 31px;
+        > img {
+          position: relative;
+          top: 0px;
+        }
+        > input {
+          background-color: var(--MAIN_BLUE);
+          border: none;
+          ::placeholder {
+            color: #fff;
+          }
+        }
+      }
     }
   }
 
