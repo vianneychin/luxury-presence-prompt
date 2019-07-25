@@ -65,7 +65,6 @@ const Wrapper = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      color: var(--TEXT_GREY);
       font-size: 13.5px;
       > ul {
         height: 20%;
@@ -83,11 +82,18 @@ const Wrapper = styled.div`
             margin-right: 10%;
             margin-left: 10%;
           }
-          > li {
-            /* width: 128px; */
-            /* background-color: red; */
+          > a {
             width: 100%;
-            text-align: left;
+            color: var(--TEXT_GREY);
+            > li {
+              /* width: 128px; */
+              /* background-color: red; */
+              width: 100%;
+              text-align: left;
+            }
+          }
+          .active {
+            color: red;
           }
           > img {
             height: 10px;

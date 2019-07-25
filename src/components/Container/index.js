@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
 import arrow from '../../assets/arrow.svg'
 import useAos from '../../hooks/useAos'
+import useNavToggle from '../../hooks/useNavToggle'
 import { Wrapper } from './styled'
 import {
   Calendar,
@@ -21,22 +23,8 @@ import {
 } from './svg'
 
 const Container = () => {
-  const [isNavHidden, setIsNavHidden] = useState(false)
-  const [display, setDisplay] = useState('')
-  const toggleNavBar = () =>
-    !isNavHidden
-      ? setIsNavHidden(() => true)
-      : null || isNavHidden
-      ? setIsNavHidden(() => false)
-      : null
-  useEffect(() => {
-    return isNavHidden
-      ? setDisplay(() => 'none')
-      : null || !isNavHidden
-      ? setDisplay(() => 'flex')
-      : null
-  }, [isNavHidden])
   useAos()
+  const { toggleNavBar, display } = useNavToggle()
   return (
     <Wrapper>
       <div className='Top'>
@@ -60,82 +48,114 @@ const Container = () => {
           <ul>
             <div>
               <Calendar props='#95A7C3' />
-              <li>Calendar</li>
+              <li>
+                <Link to='/calendar' activeClassName='active'>
+                  Calendar
+                </Link>
+              </li>
             </div>
             <div>
               <Documentation props='#95A7C3' />
-              <li>Documentation</li>
+              <Link activeClassName='active'>
+                <li>Documentation</li>
+              </Link>
             </div>
             <div>
               <Dashboard props='#95A7C3' />
-              <li>Dashboard</li>
+              <Link activeClassName='active' to='/'>
+                <li>Dashboard</li>
+              </Link>
             </div>
           </ul>
           <ul>
             <div>
               <AdminPlugins props='#95A7C3' />
-              <li>Admin Plugins</li>
+              <Link activeClassName='active'>
+                <li>Admin Plugins</li>
+              </Link>
               <img src={arrow} />
             </div>
             <div>
               <AdminForms props='#95A7C3' />
-              <li>Admin Forms</li>
+              <Link activeClassName='active'>
+                <li>Admin Forms</li>
+              </Link>
               <img src={arrow} />
             </div>
             <div>
               <AdminLayouts props='#95A7C3' />
-              <li>Admin Layouts</li>
+              <Link activeClassName='active'>
+                <li>Admin Layouts</li>
+              </Link>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
             <div>
               <InformationPanels props='#95A7C3' />
-              <li>Information Panels</li>
+              <Link activeClassName='active'>
+                <li>Information Panels</li>
+              </Link>
               <img src={arrow} />
             </div>
             <div>
               <Eccomerce props='#95A7C3' />
-              <li>Ecommerce</li>
+              <Link activeClassName='active'>
+                <li>Ecommerce</li>
+              </Link>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
             <div>
               <UIElements props='#95A7C3' />
-              <li>UI Elements</li>
+              <Link activeClassName='active'>
+                <li>UI Elements</li>
+              </Link>
               <img src={arrow} />
             </div>
             <div>
               <FormElements props='#95A7C3' />
-              <li>Form Elements</li>
+              <Link activeClassName='active'>
+                <li>Form Elements</li>
+              </Link>
               <img src={arrow} />
             </div>
             <div>
               <Plugins props='#95A7C3' />
-              <li>Plugins</li>
+              <Link activeClassName='active'>
+                <li>Plugins</li>
+              </Link>
               <img src={arrow} />
             </div>
             <div>
               <Pages props='#95A7C3' />
-              <li>Pages</li>
+              <Link activeClassName='active'>
+                <li>Pages</li>
+              </Link>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
             <div>
               <ExecutiveMeeting props='#F7C95C' />
-              <li>Executive Meeting</li>
+              <Link activeClassName='active'>
+                <li>Executive Meeting</li>
+              </Link>
               <img src={arrow} />
             </div>
             <div>
               <HelpDeskResign props='#EA5D50' />
-              <li>HelpDesk Resign</li>
+              <Link activeClassName='active'>
+                <li>HelpDesk Resign</li>
+              </Link>
               <img src={arrow} />
             </div>
             <div>
               <SonyBoardMeeting props='#917DD6' />
-              <li>Sony Board Meeting</li>
+              <Link activeClassName='active'>
+                <li>Sony Board Meeting</li>
+              </Link>
               <img src={arrow} />
             </div>
           </ul>
