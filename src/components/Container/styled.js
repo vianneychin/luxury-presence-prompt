@@ -261,34 +261,38 @@ const Wrapper = styled.div`
         > div:nth-of-type(2) {
           display: flex;
           justify-content: space-around;
-          padding-right: 3%;
-          padding-left: 3%;
+          padding-right: 5%;
+          padding-left: 5%;
           > div {
-            background-color: white;
             display: flex;
-            flex-direction: column;
-            text-align: center;
-            h1 {
-              font-size: 40px;
-              font-weight: 400;
-            }
-            h2 {
-              color: var(--TEXT_GREY);
-              font-weight: 400;
+            justify-content: space-around;
+            width: 100%;
+
+            > div {
+              background-color: white;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              h1 {
+                font-size: 40px;
+                font-weight: 400;
+              }
+              h2 {
+                color: var(--TEXT_GREY);
+                font-weight: 400;
+              }
             }
           }
         }
         > hr {
           margin-top: 3.5%;
-          border: 0;
-          border: 1px solid rgb(242, 242, 242);
           display: block;
         }
       }
       .Footer {
         background-color: cornflowerblue;
         display: flex;
-        height: 80px;
+        height: 70px;
       }
     }
   }

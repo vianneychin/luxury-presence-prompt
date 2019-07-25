@@ -206,23 +206,27 @@ const Container = () => {
             </div>
             <div>
               <div>
-                <h1>{newFeedbacks}</h1>
-                <h2>New Feedbacks</h2>
+                <div>
+                  <h1>{newFeedbacks}</h1>
+                  <h2>New Feedbacks</h2>
+                </div>
+                <hr />
+                <div>
+                  <h1>{totalProfit}</h1>
+                  <h2>Total Profit</h2>
+                </div>
+                <hr />
               </div>
-              <hr />
               <div>
-                <h1>{totalProfit}</h1>
-                <h2>Total Profit</h2>
-              </div>
-              <hr />
-              <div>
-                <h1>{newOrders}</h1>
-                <h2>New Orders</h2>
-              </div>
-              <hr />
-              <div>
-                <h1>{BrandPopularity}</h1>
-                <h2>BrandPopularity</h2>
+                <div>
+                  <h1>{newOrders}</h1>
+                  <h2>New Orders</h2>
+                </div>
+                <hr />
+                <div>
+                  <h1>{BrandPopularity}</h1>
+                  <h2>BrandPopularity</h2>
+                </div>
               </div>
             </div>
 
