@@ -228,8 +228,9 @@ const Wrapper = styled.div`
         }
       }
       .Main {
-        background-color: lime;
         display: flex;
+        background-color: var(--WHITE);
+        flex-direction: column;
         flex-grow: 1;
         border-radius: 10px;
         box-shadow: 0 5px 10px rgba(154, 160, 185, 0.5),
@@ -250,6 +251,29 @@ const Wrapper = styled.div`
             font-weight: 400;
             padding-left: 1.5%;
             padding-top: 0.7%;
+          }
+        }
+        hr {
+          border-color: rgb(242, 242, 242);
+        }
+        > div:nth-of-type(2) {
+          display: flex;
+          justify-content: space-around;
+          padding-right: 3%;
+          padding-left: 3%;
+          > div {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            h1 {
+              font-size: 40px;
+              font-weight: 400;
+            }
+            h2 {
+              color: var(--TEXT_GREY);
+              font-weight: 400;
+            }
           }
         }
       }
