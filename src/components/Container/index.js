@@ -255,7 +255,10 @@ const Container = () => {
                 </div>
               </div>
             </div>
-            <div />
+            <div className='Graph-Container'>
+              <div />
+              <div />
+            </div>
           </div>
           <div className='Footer' />
         </div>

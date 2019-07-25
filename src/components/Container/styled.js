@@ -336,22 +336,25 @@ const Wrapper = styled.div`
               align-items: center;
               padding-top: 10px;
               padding-bottom: 10px;
-              width: 155px;
+              width: 195px;
               justify-content: space-between;
               > button {
                 height: 100%;
                 border-radius: 4px;
+                letter-spacing: 1.5px;
               }
               > button:nth-of-type(1) {
-                width: 50px;
+                width: 65px;
                 background-color: var(--GREEN);
                 border-color: var(--GREEN);
                 color: var(--WHITE);
+                box-shadow: 0 2.5px 5px rgba(154, 160, 185, 0.5);
               }
               > button:nth-of-type(2) {
-                width: 100px;
+                width: 120px;
                 color: var(--TEXT_GREY);
                 border: 1.5px solid rgb(200, 200, 200);
+                box-shadow: 0 2.5px 5px rgba(154, 160, 185, 0.5);
               }
             }
           }
@@ -405,6 +408,10 @@ const Wrapper = styled.div`
             }
           }
         }
+      }
+      .Graph-Container {
+        height: 100%;
+        background-color: black;
       }
       .Footer {
         background-color: cornflowerblue;
