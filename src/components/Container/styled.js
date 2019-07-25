@@ -254,7 +254,9 @@ const Wrapper = styled.div`
           }
         }
         hr {
-          border-color: rgb(242, 242, 242);
+          border: 0;
+          border: 1px solid rgb(242, 242, 242);
+          display: block;
         }
         > div:nth-of-type(2) {
           display: flex;
@@ -275,6 +277,12 @@ const Wrapper = styled.div`
               font-weight: 400;
             }
           }
+        }
+        > hr {
+          margin-top: 3.5%;
+          border: 0;
+          border: 1px solid rgb(242, 242, 242);
+          display: block;
         }
       }
       .Footer {

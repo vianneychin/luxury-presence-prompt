@@ -225,6 +225,11 @@ const Container = () => {
                 <h2>BrandPopularity</h2>
               </div>
             </div>
+
+            <hr />
+
+            {/* third */}
+            <div />
           </div>
           <div className='Footer' />
         </div>
