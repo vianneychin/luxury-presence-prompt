@@ -93,4 +93,4 @@ const Wrapper = styled.div`
   }
 `
 
-export {Wrapper}
+export { Wrapper }

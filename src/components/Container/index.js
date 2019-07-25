@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import useAos from '../../hooks/useAos'
-import {Wrapper} from './styled'
+import { Wrapper } from './styled'
 import {
   Calendar,
   Dashboard,
@@ -38,96 +38,96 @@ const Container = () => {
   useAos()
   return (
     <Wrapper>
-      <div className="Top">
-        <div className="Top-Left">
+      <div className='Top'>
+        <div className='Top-Left'>
           <input />
-          <div onClick={toggleNavBar} className="Hamburger">
+          <div onClick={toggleNavBar} className='Hamburger'>
             <div />
             <div />
             <div />
           </div>
         </div>
 
-        <div className="Top-Right" />
+        <div className='Top-Right' />
       </div>
-      <div className="Bottom">
+      <div className='Bottom'>
         <div
-          className="Bottom-Left"
-          data-aos="fade-right"
-          style={{display: display}}
+          className='Bottom-Left'
+          data-aos='fade-right'
+          style={{ display: display }}
         >
           <ul>
             <div>
-              <Calendar />
+              <Calendar props='#95A7C3' />
               <li>Calendar</li>
             </div>
             <div>
-              <Documentation />
+              <Documentation props='#95A7C3' />
               <li>Documentation</li>
             </div>
             <div>
-              <Dashboard />
+              <Dashboard props='#95A7C3' />
               <li>Dashboard</li>
             </div>
           </ul>
           <ul>
             <div>
-              <AdminPlugins props="" />
+              <AdminPlugins props='#95A7C3' />
               <li>Admin Plugins</li>
             </div>
             <div>
-              <AdminForms props="" />
+              <AdminForms props='#95A7C3' />
               <li>Admin Forms</li>
             </div>
             <div>
-              <AdminLayouts props="" />
+              <AdminLayouts props='#95A7C3' />
               <li>Admin Layouts</li>
             </div>
           </ul>
           <ul>
             <div>
-              <InformationPanels />
+              <InformationPanels props='#95A7C3' />
               <li>Information Panels</li>
             </div>
             <div>
-              <Eccomerce />
+              <Eccomerce props='#95A7C3' />
               <li>Ecommerce</li>
             </div>
           </ul>
           <ul>
             <div>
-              <UIElements />
+              <UIElements props='#95A7C3' />
               <li>UI Elements</li>
             </div>
             <div>
-              <FormElements />
+              <FormElements props='#95A7C3' />
               <li>Form Elements</li>
             </div>
             <div>
-              <Plugins />
+              <Plugins props='#95A7C3' />
               <li>Plugins</li>
             </div>
             <div>
-              <Pages />
+              <Pages props='#95A7C3' />
               <li>Pages</li>
             </div>
           </ul>
           <ul>
             <div>
-              <ExecutiveMeeting />
+              <ExecutiveMeeting props='#95A7C3' />
               <li>Executive Meeting</li>
             </div>
             <div>
-              <HelpDeskResign />
+              <HelpDeskResign props='#95A7C3' />
               <li>HelpDesk Resign</li>
             </div>
             <div>
-              <SonyBoardMeeting />
+              <SonyBoardMeeting props='#95A7C3' />
               <li>Sony Board Meeting</li>
             </div>
           </ul>
         </div>
-        <div className="Bottom-Right" />
+        <div className='Bottom-Right' />
       </div>
     </Wrapper>
   )
