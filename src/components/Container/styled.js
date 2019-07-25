@@ -96,6 +96,14 @@ const Wrapper = styled.div`
             margin-right: 10%;
           }
         }
+        @media (max-width: 1200px) {
+          li {
+            display: none;
+          }
+          img {
+            display: none;
+          }
+        }
       }
     }
     .Bottom-Right {

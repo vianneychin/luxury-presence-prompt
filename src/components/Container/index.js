@@ -61,17 +61,14 @@ const Container = () => {
             <div>
               <Calendar props='#95A7C3' />
               <li>Calendar</li>
-              <img src={arrow} />
             </div>
             <div>
               <Documentation props='#95A7C3' />
               <li>Documentation</li>
-              <img src={arrow} />
             </div>
             <div>
               <Dashboard props='#95A7C3' />
               <li>Dashboard</li>
-              <img src={arrow} />
             </div>
           </ul>
           <ul>
