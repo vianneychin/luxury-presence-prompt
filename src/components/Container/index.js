@@ -245,7 +245,7 @@ const Container = () => {
               <div className='Revenue'>
                 <div>
                   <h1>Site Visits</h1>
-                  <h2>Weekly Stats</h2>
+                  <h2>Monthly Stats</h2>
                 </div>
                 <div>
                   <select>

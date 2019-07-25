@@ -356,6 +356,33 @@ const Wrapper = styled.div`
           }
           .Revenue {
             background-color: blue;
+            padding-left: 2%;
+            padding-right: 2%;
+            display: flex;
+            justify-content: space-between;
+            > div:nth-of-type(1) {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: 230px;
+              h1 {
+                font-size: 30px;
+                font-weight: 400;
+              }
+              h2 {
+                padding-top: 10px;
+                font-weight: 400;
+                color: var(--TEXT_GREY);
+              }
+            }
+            > div:nth-of-type(2) {
+              display: flex;
+              align-items: center;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              width: 155px;
+              justify-content: space-between;
+            }
           }
         }
       }
