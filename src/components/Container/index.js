@@ -186,6 +186,7 @@ const Container = () => {
               <select>
                 <option>17 January 2016 - 15 February 2016</option>
               </select>
+              <img src={downArrow} />
               <button>
                 <img src={settingsIcon} />
               </button>

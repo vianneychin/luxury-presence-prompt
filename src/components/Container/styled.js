@@ -164,7 +164,7 @@ const Wrapper = styled.div`
     }
     .Bottom-Right {
       width: 85%;
-      /* background-color: papayawhip; */
+      background-color: papayawhip;
       display: flex;
       flex-direction: column;
       padding-top: 2.5%;
@@ -189,7 +189,7 @@ const Wrapper = styled.div`
         > div:nth-of-type(2) {
           display: flex;
           select {
-            padding-right: 15px;
+            padding-right: 29px;
             background-color: white;
             padding-top: 15px;
             padding-bottom: 15px;
@@ -205,14 +205,22 @@ const Wrapper = styled.div`
             position: relative;
             left: 6px;
             border-radius: 0;
+            height: 90%;
+          }
+          > img {
+            height: 14px;
+            position: relative;
+            right: 30px;
+            top: 24px;
           }
           button {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 65.56px;
+            width: 58.5px;
             margin-left: 5.4px;
             background-color: #fff;
+            height: 90%;
             img {
               width: 25px;
             }
@@ -227,7 +235,7 @@ const Wrapper = styled.div`
       .Footer {
         background-color: cornflowerblue;
         display: flex;
-        flex-grow: 1;
+        height: 80px;
       }
     }
   }
