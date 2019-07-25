@@ -124,17 +124,17 @@ const Container = () => {
           </ul>
           <ul>
             <div>
-              <ExecutiveMeeting props='#95A7C3' />
+              <ExecutiveMeeting props='#F7C95C' />
               <li>Executive Meeting</li>
               <img src={arrow} />
             </div>
             <div>
-              <HelpDeskResign props='#95A7C3' />
+              <HelpDeskResign props='#EA5D50' />
               <li>HelpDesk Resign</li>
               <img src={arrow} />
             </div>
             <div>
-              <SonyBoardMeeting props='#95A7C3' />
+              <SonyBoardMeeting props='#917DD6' />
               <li>Sony Board Meeting</li>
               <img src={arrow} />
             </div>
