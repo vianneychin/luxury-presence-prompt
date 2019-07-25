@@ -74,13 +74,26 @@ const Wrapper = styled.div`
         align-items: center;
         justify-content: center;
         > div {
-          /* background-color: white; */
+          width: 100%;
           height: 25%;
           display: flex;
           justify-content: center;
+          align-items: center;
+          > svg {
+            margin-right: 10%;
+            margin-left: 10%;
+          }
           > li {
-            width: 128px;
+            /* width: 128px; */
             /* background-color: red; */
+            width: 100%;
+            text-align: left;
+          }
+          > img {
+            height: 10px;
+            width: 10px;
+            margin-left: auto;
+            margin-right: 10%;
           }
         }
       }
