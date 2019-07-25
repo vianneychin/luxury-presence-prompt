@@ -157,21 +157,21 @@ const Container = () => {
               <Link activeClassName='active'>
                 <li>Executive Meeting</li>
               </Link>
-              <img src={arrow} />
+              <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div>
               <HelpDeskResign props='#EA5D50' />
               <Link activeClassName='active'>
                 <li>HelpDesk Resign</li>
               </Link>
-              <img src={arrow} />
+              <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div>
               <SonyBoardMeeting props='#917DD6' />
               <Link activeClassName='active'>
                 <li>Sony Board Meeting</li>
               </Link>
-              <img src={arrow} />
+              <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
           </ul>
         </div>

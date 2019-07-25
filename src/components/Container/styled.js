@@ -125,8 +125,8 @@ const Wrapper = styled.div`
           justify-content: center;
           align-items: center;
           > svg {
-            margin-right: 8%;
-            margin-left: 12.5%;
+            margin-right: 12%;
+            margin-left: 12%;
             height: 46px;
             width: 34px;
             @media (max-width: 1200px) {
@@ -150,7 +150,7 @@ const Wrapper = styled.div`
           > img {
             height: 10px;
             width: 10px;
-            margin-left: auto;
+            margin-left: 10%;
             margin-right: 10%;
           }
         }
@@ -167,17 +167,22 @@ const Wrapper = styled.div`
     .Bottom-Right {
       width: 85%;
       background-color: papayawhip;
+      display: flex;
+      flex-direction: column;
       .Header {
-        background-color: tomato;
-        /* height: 33.3%; */
+        /* background-color: tomato; */
+        display: flex;
+        flex-grow: 1;
       }
       .Main {
         background-color: lime;
-        /* height: 33.3%; */
+        display: flex;
+        flex-grow: 1;
       }
       .Footer {
         background-color: cornflowerblue;
-        /* height: 33.3%; */
+        display: flex;
+        flex-grow: 1;
       }
     }
   }
