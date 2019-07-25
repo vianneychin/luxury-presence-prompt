@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Wrapper } from './styled'
-import Top from './Top'
+import { AdminForms } from './svg'
 
 const Container = () => {
   const [isNavHidden, setIsNavHidden] = useState(false)
@@ -42,6 +42,7 @@ const Container = () => {
               <li>Admin Plugins</li>
             </div>
             <div>
+              <AdminForms props="#FFF" />
               <li>Admin Forms</li>
             </div>
             <div>
