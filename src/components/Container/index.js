@@ -7,6 +7,7 @@ import arrow from '../../assets/arrow.svg'
 import searchIcon from '../../assets/search.svg'
 import settingsIcon from '../../assets/settings.svg'
 import downArrow from '../../assets/down-arrow.svg'
+import upArrow from '../../assets/up-arrow.svg'
 import useAos from '../../hooks/useAos'
 import useNavToggle from '../../hooks/useNavToggle'
 import useAPI from '../../hooks/useAPI'
@@ -285,7 +286,10 @@ const Container = () => {
             </div>
             <hr style={{ margin: 0 }} />
           </div>
-          <div className='Footer' />
+          <button data-aos='fade-up' className='Footer'>
+            <h3>2019 by Template Monster</h3>
+            <img src={upArrow} />
+          </button>
         </div>
       </div>
     </Wrapper>

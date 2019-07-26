@@ -174,6 +174,7 @@ const Wrapper = styled.div`
       }
     }
     .Bottom-Right {
+      height: 200vh;
       width: 90%;
       margin-left: 15%;
       display: flex;
@@ -239,6 +240,7 @@ const Wrapper = styled.div`
         }
       }
       .Main {
+        margin-bottom: 90vh;
         display: flex;
         background-color: var(--WHITE);
         flex-direction: column;
@@ -466,7 +468,23 @@ const Wrapper = styled.div`
       .Footer {
         /* background-color: cornflowerblue; */
         display: flex;
-        height: 70px;
+        height: 6vh;
+        position: fixed;
+        bottom: 0;
+        left: 15%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        > h3 {
+          padding-left: 2%;
+          color: var(--TEXT_GREY);
+        }
+        > img {
+          height: 20px;
+          transform: rotate(180deg);
+          position: fixed;
+          right: 17%;
+        }
       }
     }
   }
