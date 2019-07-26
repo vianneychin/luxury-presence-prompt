@@ -10,7 +10,6 @@ import upArrow from '../../assets/up-arrow.svg'
 import useAos from '../../hooks/useAos'
 import useNavToggle from '../../hooks/useNavToggle'
 import useAPI from '../../hooks/useAPI'
-import useSVG from '../../hooks/useSVG'
 import { Wrapper } from './styled'
 import {
   Calendar,
@@ -33,7 +32,6 @@ import {
 const Container = () => {
   useAos()
   const resources = useAPI()
-  const { svgColor } = useSVG()
   const { toggleNavBar, display } = useNavToggle()
   const { BrandPopularity, newFeedbacks, newOrders, totalProfit } =
     resources && resources.Totals
@@ -73,68 +71,68 @@ const Container = () => {
         >
           <ul>
             <div tabindex='1'>
-              <Calendar props={svgColor} />
+              <Calendar props={'#95A7C3'} />
               <li>Calendar</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div tabindex='2'>
-              <Documentation props={svgColor} />
+              <Documentation props={'#95A7C3'} />
               <li>Documentation</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
-            <div tabindex='3'>
-              <Dashboard props={svgColor} />
+            <div tabindex='3' style={{ backgroundColor: 'white' }}>
+              <Dashboard props={'var(--MAIN_BLUE)'} />
               <li>Dashboard</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
           </ul>
           <ul>
             <div tabindex='4'>
-              <AdminPlugins props={svgColor} />
+              <AdminPlugins props={'#95A7C3'} />
               <li>Admin Plugins</li>
               <img src={arrow} />
             </div>
             <div tabindex='5'>
-              <AdminForms props={svgColor} />
+              <AdminForms props={'#95A7C3'} />
               <li>Admin Forms</li>
               <img src={arrow} />
             </div>
             <div tabindex='6'>
-              <AdminLayouts props={svgColor} />
+              <AdminLayouts props={'#95A7C3'} />
               <li>Admin Layouts</li>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
             <div tabindex='7'>
-              <InformationPanels props={svgColor} />
+              <InformationPanels props={'#95A7C3'} />
               <li>Information Panels</li>
               <img src={arrow} />
             </div>
             <div tabindex='8'>
-              <Eccomerce props={svgColor} />
+              <Eccomerce props={'#95A7C3'} />
               <li>Ecommerce</li>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
             <div tabindex='9'>
-              <UIElements props={svgColor} />
+              <UIElements props={'#95A7C3'} />
               <li>UI Elements</li>
               <img src={arrow} />
             </div>
             <div tabindex='10'>
-              <FormElements props={svgColor} />
+              <FormElements props={'#95A7C3'} />
               <li>Form Elements</li>
               <img src={arrow} />
             </div>
             <div tabindex='11'>
-              <Plugins props={svgColor} />
+              <Plugins props={'#95A7C3'} />
               <li>Plugins</li>
               <img src={arrow} />
             </div>
             <div tabindex='12'>
-              <Pages props={svgColor} />
+              <Pages props={'#95A7C3'} />
               <li>Pages</li>
               <img src={arrow} />
             </div>
