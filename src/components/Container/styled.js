@@ -14,12 +14,14 @@ const Wrapper = styled.div`
     min-height: 77.86px;
     width: 100%;
     .Top-Left {
-      height: 78.1px;
-      width: 15%;
+      height: 8.5vh;
+      width: 15vw;
       background-color: var(--NAV_BLUE);
-      display: flex;
       justify-content: center;
+      -webkit-box-align: center;
       align-items: center;
+      position: fixed;
+      display: flex;
       input {
         height: 50%;
         width: 70%;
@@ -55,6 +57,9 @@ const Wrapper = styled.div`
       background-color: var(--MAIN_BLUE);
       display: flex;
       align-items: center;
+      position: fixed;
+      right: 0%;
+      height: 8.6vh;
       > div:nth-of-type(1) {
         width: 200px;
         display: flex;
@@ -106,12 +111,16 @@ const Wrapper = styled.div`
     width: 100%;
     justify-content: center;
     .Bottom-Left {
-      width: 15%;
+      width: 15vw;
       background-color: var(--NAV_DARK_BLUE);
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       font-size: 13.5px;
+      position: fixed;
+      left: 0;
+      height: 91.5vh;
+      top: 8.5%;
       > ul {
         height: 20%;
         display: flex;
@@ -165,7 +174,8 @@ const Wrapper = styled.div`
       }
     }
     .Bottom-Right {
-      width: 85%;
+      width: 90%;
+      margin-left: 15%;
       display: flex;
       flex-direction: column;
       padding-top: 2.5%;
@@ -237,12 +247,13 @@ const Wrapper = styled.div`
         box-shadow: 0 5px 10px rgba(154, 160, 185, 0.5),
           0 15px 40px rgba(166, 173, 201, 0.2);
         > div:nth-of-type(1) {
-          padding-left: 2%;
+          padding-left: 3%;
           background-color: white;
           display: flex;
           align-items: center;
           height: 15%;
           width: 100%;
+          margin-top: 20px;
           h1 {
             font-size: 30px;
             font-weight: 400;
