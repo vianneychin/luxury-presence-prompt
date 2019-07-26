@@ -141,6 +141,8 @@ const Wrapper = styled.div`
             width: 34px;
             @media (max-width: 1200px) {
               margin: 0;
+              height: 50%;
+              width: 50%;
             }
           }
           > a {
