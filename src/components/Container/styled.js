@@ -93,7 +93,7 @@ const Wrapper = styled.div`
             width: 40px;
             position: relative;
             left: 15px;
-            background-color: var(--NAV_DARK_BLUE);
+            background-color: var(--NAV_BLUE);
           }
           > img:nth-of-type(2) {
             height: 14px;
@@ -145,15 +145,12 @@ const Wrapper = styled.div`
               width: 50%;
             }
           }
-          > a {
-            width: 100%;
+          > li {
             color: var(--TEXT_GREY);
+            width: 100%;
+            text-align: left;
             @media (max-width: 1200px) {
               display: none;
-            }
-            > li {
-              width: 100%;
-              text-align: left;
             }
           }
           .active {

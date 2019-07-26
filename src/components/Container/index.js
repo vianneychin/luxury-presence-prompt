@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import profileIcon from '../../assets/profile.png'
 import graphOne from '../../assets/GraphOne.png'
 import graphTwo from '../../assets/GraphTwo.png'
@@ -73,115 +72,85 @@ const Container = () => {
           <ul>
             <div>
               <Calendar props='#95A7C3' />
-              <Link to='/calendar' activeClassName='active'>
-                <li>Calendar</li>
-              </Link>
+              <li>Calendar</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div>
               <Documentation props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Documentation</li>
-              </Link>
+              <li>Documentation</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div>
               <Dashboard props='#95A7C3' />
-              <Link activeClassName='active' to='/'>
-                <li>Dashboard</li>
-              </Link>
+              <li>Dashboard</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
           </ul>
           <ul>
             <div>
               <AdminPlugins props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Admin Plugins</li>
-              </Link>
+              <li>Admin Plugins</li>
               <img src={arrow} />
             </div>
             <div>
               <AdminForms props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Admin Forms</li>
-              </Link>
+              <li>Admin Forms</li>
               <img src={arrow} />
             </div>
             <div>
               <AdminLayouts props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Admin Layouts</li>
-              </Link>
+              <li>Admin Layouts</li>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
             <div>
               <InformationPanels props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Information Panels</li>
-              </Link>
+              <li>Information Panels</li>
               <img src={arrow} />
             </div>
             <div>
               <Eccomerce props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Ecommerce</li>
-              </Link>
+              <li>Ecommerce</li>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
             <div>
               <UIElements props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>UI Elements</li>
-              </Link>
+              <li>UI Elements</li>
               <img src={arrow} />
             </div>
             <div>
               <FormElements props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Form Elements</li>
-              </Link>
+              <li>Form Elements</li>
               <img src={arrow} />
             </div>
             <div>
               <Plugins props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Plugins</li>
-              </Link>
+              <li>Plugins</li>
               <img src={arrow} />
             </div>
             <div>
               <Pages props='#95A7C3' />
-              <Link activeClassName='active'>
-                <li>Pages</li>
-              </Link>
+              <li>Pages</li>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
             <div>
               <ExecutiveMeeting props='#F7C95C' />
-              <Link activeClassName='active'>
-                <li>Executive Meeting</li>
-              </Link>
+              <li>Executive Meeting</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div>
               <HelpDeskResign props='#EA5D50' />
-              <Link activeClassName='active'>
-                <li>HelpDesk Resign</li>
-              </Link>
+              <li>HelpDesk Resign</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
             <div>
               <SonyBoardMeeting props='#917DD6' />
-              <Link activeClassName='active'>
-                <li>Sony Board Meeting</li>
-              </Link>
+              <li>Sony Board Meeting</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
           </ul>
@@ -247,7 +216,7 @@ const Container = () => {
               </div>
               <div className='Revenue'>
                 <div>
-                  <h1>Site Visits</h1>
+                  <h1>Revenue</h1>
                   <h2>Monthly Stats</h2>
                 </div>
                 <div>
