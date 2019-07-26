@@ -10,6 +10,7 @@ import upArrow from '../../assets/up-arrow.svg'
 import useAos from '../../hooks/useAos'
 import useNavToggle from '../../hooks/useNavToggle'
 import useAPI from '../../hooks/useAPI'
+import useSVG from '../../hooks/useSVG'
 import { Wrapper } from './styled'
 import {
   Calendar,
@@ -32,6 +33,7 @@ import {
 const Container = () => {
   useAos()
   const resources = useAPI()
+  const { svgColor } = useSVG()
   const { toggleNavBar, display } = useNavToggle()
   const { BrandPopularity, newFeedbacks, newOrders, totalProfit } =
     resources && resources.Totals
@@ -70,85 +72,85 @@ const Container = () => {
           style={{ display: display }}
         >
           <ul>
-            <div>
-              <Calendar props='#95A7C3' />
+            <div tabindex='1'>
+              <Calendar props={svgColor} />
               <li>Calendar</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
-            <div>
-              <Documentation props='#95A7C3' />
+            <div tabindex='2'>
+              <Documentation props={svgColor} />
               <li>Documentation</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
-            <div>
-              <Dashboard props='#95A7C3' />
+            <div tabindex='3'>
+              <Dashboard props={svgColor} />
               <li>Dashboard</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
           </ul>
           <ul>
-            <div>
-              <AdminPlugins props='#95A7C3' />
+            <div tabindex='4'>
+              <AdminPlugins props={svgColor} />
               <li>Admin Plugins</li>
               <img src={arrow} />
             </div>
-            <div>
-              <AdminForms props='#95A7C3' />
+            <div tabindex='5'>
+              <AdminForms props={svgColor} />
               <li>Admin Forms</li>
               <img src={arrow} />
             </div>
-            <div>
-              <AdminLayouts props='#95A7C3' />
+            <div tabindex='6'>
+              <AdminLayouts props={svgColor} />
               <li>Admin Layouts</li>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
-            <div>
-              <InformationPanels props='#95A7C3' />
+            <div tabindex='7'>
+              <InformationPanels props={svgColor} />
               <li>Information Panels</li>
               <img src={arrow} />
             </div>
-            <div>
-              <Eccomerce props='#95A7C3' />
+            <div tabindex='8'>
+              <Eccomerce props={svgColor} />
               <li>Ecommerce</li>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
-            <div>
-              <UIElements props='#95A7C3' />
+            <div tabindex='9'>
+              <UIElements props={svgColor} />
               <li>UI Elements</li>
               <img src={arrow} />
             </div>
-            <div>
-              <FormElements props='#95A7C3' />
+            <div tabindex='10'>
+              <FormElements props={svgColor} />
               <li>Form Elements</li>
               <img src={arrow} />
             </div>
-            <div>
-              <Plugins props='#95A7C3' />
+            <div tabindex='11'>
+              <Plugins props={svgColor} />
               <li>Plugins</li>
               <img src={arrow} />
             </div>
-            <div>
-              <Pages props='#95A7C3' />
+            <div tabindex='12'>
+              <Pages props={svgColor} />
               <li>Pages</li>
               <img src={arrow} />
             </div>
           </ul>
           <ul>
-            <div>
+            <div tabindex='13'>
               <ExecutiveMeeting props='#F7C95C' />
               <li>Executive Meeting</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
-            <div>
+            <div tabindex='14'>
               <HelpDeskResign props='#EA5D50' />
               <li>HelpDesk Resign</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />
             </div>
-            <div>
+            <div tabindex='15'>
               <SonyBoardMeeting props='#917DD6' />
               <li>Sony Board Meeting</li>
               <img src={arrow} style={{ visibility: 'hidden' }} />

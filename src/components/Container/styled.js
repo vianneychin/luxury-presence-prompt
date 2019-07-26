@@ -134,6 +134,9 @@ const Wrapper = styled.div`
           display: flex;
           justify-content: center;
           align-items: center;
+          :focus {
+            background-color: white;
+          }
           > svg {
             margin-right: 10%;
             margin-left: 10%;
