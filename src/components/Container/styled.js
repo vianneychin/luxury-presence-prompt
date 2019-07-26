@@ -59,7 +59,7 @@ const Wrapper = styled.div`
       align-items: center;
       position: fixed;
       right: 0%;
-      height: 8.6vh;
+      height: 8.5vh;
       z-index: 1;
       > div:nth-of-type(1) {
         width: 200px;
