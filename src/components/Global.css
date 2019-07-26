@@ -21,7 +21,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+body {
+  background-color: rgb(241, 244, 248);
+}
 button:hover {
   cursor: pointer;
 }

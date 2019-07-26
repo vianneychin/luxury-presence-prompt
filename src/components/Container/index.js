@@ -284,7 +284,7 @@ const Container = () => {
                 </div>
               </div>
             </div>
-            <hr style={{ margin: 0 }} />
+            {/* <hr style={{ margin: 0 }} /> */}
           </div>
           <button data-aos='fade-up' className='Footer'>
             <h3>2019 by Template Monster</h3>

@@ -60,6 +60,7 @@ const Wrapper = styled.div`
       position: fixed;
       right: 0%;
       height: 8.6vh;
+      z-index: 1;
       > div:nth-of-type(1) {
         width: 200px;
         display: flex;
@@ -240,7 +241,8 @@ const Wrapper = styled.div`
         }
       }
       .Main {
-        margin-bottom: 90vh;
+        /* margin-bottom: 90vh; */
+        padding-bottom: 200vh;
         display: flex;
         background-color: var(--WHITE);
         flex-direction: column;
@@ -249,13 +251,13 @@ const Wrapper = styled.div`
         box-shadow: 0 5px 10px rgba(154, 160, 185, 0.5),
           0 15px 40px rgba(166, 173, 201, 0.2);
         > div:nth-of-type(1) {
+          margin-top: 5vh;
           padding-left: 3%;
           background-color: white;
           display: flex;
           align-items: center;
           height: 15%;
           width: 100%;
-          margin-top: 20px;
           h1 {
             font-size: 30px;
             font-weight: 400;
@@ -273,6 +275,7 @@ const Wrapper = styled.div`
           display: block;
         }
         > div:nth-of-type(2) {
+          margin-top: 6vh;
           @media (max-width: 1200px) {
             flex-direction: column;
             > div:nth-of-type(2) {
@@ -439,7 +442,6 @@ const Wrapper = styled.div`
         .Graph-Two {
           height: 100%;
           width: 50%;
-          /* background-color: blue; */
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -478,6 +480,7 @@ const Wrapper = styled.div`
         > h3 {
           padding-left: 2%;
           color: var(--TEXT_GREY);
+          width: 210px;
         }
         > img {
           height: 20px;
